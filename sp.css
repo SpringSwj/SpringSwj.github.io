@@ -1,0 +1,238 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+/*
+320~640、640~980、980~这三种分辨率分别设计不同的字体和宽度
+我将屏幕分成25份，在设计稿下计算出一份的宽度，将其设置成为1rem
+*/
+@media screen and (max-width: 640px) and (min-width: 320px){
+		.borad{
+			background-color: green;
+		}
+		html{
+			font-size: 40px;
+		}
+}
+@media screen and (max-width: 980px) and (min-width: 640px){
+		.borad{
+			background-color: red;
+		}
+		html{
+			font-size: 40px;
+		}
+}
+@media screen and (min-width: 980px){
+		.borad{
+			background-color: yellow;
+		}
+		html{
+			font-size: 40px;
+		}
+}
+.borad{
+	width: 47.5rem;
+	height: 38.4rem;
+}
+.title{
+	height: 1.75rem;
+	font-size: 0.45rem;
+	display: grid;
+	grid-template-columns: 4.75rem 3.5rem 4.25rem 3.5rem 3.5rem ;
+	padding: 1.0rem 0 0  1.0rem;
+}
+.b1.c1{
+	margin: 0.25rem 0 0 0;
+}
+#q1{
+	width: 47.475rem;
+}
+.ww{
+	width: 47.475rem;
+	height: 13.75rem;
+	display: grid;
+	grid-template-columns: 15.0rem 15.0rem 15.0rem;
+	margin: 1.25rem 0 0 0rem;
+}
+.wb1{
+	background-color: lightblue;
+	margin: 0 0 0 1.25rem;
+	padding: 0.75rem 0 0 0.625rem;
+}
+.wz1{
+	font-size: 0.75rem;
+	font-weight: bold;
+	margin: 0 0 0.375rem 0
+}
+.wz2{
+	font-size: 0.55rem;
+}
+.wz3{
+	font-size: 0.425rem;
+	font-weight: bold;
+	margin: 0.25rem 0 0 0 ;
+}
+
+.wb2{
+	background-color: red;
+	margin: 0 0 0 0.75rem;
+	padding: 0.75rem 0 0 0.625rem;
+	color: white;
+}
+.wa1{
+	font-size: 0.75rem;
+	font-weight: bold;
+	margin: 0 0 0.375rem 0
+}
+.wa2{
+	font-size: 0.55rem;
+}
+.wa3{
+	font-size: 0.425rem;
+	font-weight: bold;
+	margin: 0.25rem 0 0 0 ;
+}
+
+.wb3{
+	background-color: red;
+	margin: 0 0 0 0.75rem;
+	padding: 0.75rem 0 0 0.625rem;
+	color: white;
+	font-weight: bold;
+}
+.ws1{
+	font-size: 0.75rem;
+	font-weight: bold;
+	margin: 0 0 0.375rem 0
+}
+.ws2{
+	font-size: 0.55rem;
+}
+.ws3{
+	font-size: 0.425rem;
+	font-weight: bold;
+	margin: 0.25rem 0 0 0 ;
+}
+.wq{
+	width: 47.475rem;
+	height: 12.5rem;
+	margin: 3.0rem 0 0 0 ;
+	display: grid;
+	grid-template-columns: 8.75rem 10.0rem 10.0rem 10.0rem 10.0rem;
+}
+.aq1{
+	margin: 0 0 0 0.75rem;
+}
+.xs1{
+	font-size: 0.5rem;
+	font-weight: bold;
+	margin: 0 0 0.375rem 0;
+}
+.xs2{
+	font-size: 0.4rem;
+	margin:0.25rem 0 0.05rem 0 ;
+}
+.xs2.xx{
+	margin: 0.25rem 0 1.0rem 0;
+}
+.xs3{
+	font-size: 0.4rem;
+	margin: 0.25rem 0 0.05rem 0 ;
+}
+.sd1{
+	font-size:0.5rem;
+	font-weight: bold;
+	margin: 0 0 0.375rem 0;
+}
+.sd2{
+	font-size: 0.4rem;
+	margin: 0.25rem 0 0.05rem 0 ;
+}
+.sd3{
+	font-size: 0.5rem;
+	font-weight: bold;
+	margin: 0.5rem 0 0.375rem 0 ;
+}
+.sd4{
+	font-size: 0.4rem;
+	margin: 0.25rem 0 0 0;
+}
+.sf1{
+	font-size:0.5rem;
+	font-weight: bold;
+	margin: 0 0 0.375rem 0;
+}
+.sf2{
+	font-size: 0.4rem;
+	margin:0.375rem 0 0.125rem 0;
+}
+
+.gh1{
+	font-size: 0.5rem;
+	font-weight: bold;
+	margin: 0 0 0.5rem 0;
+}
+.gh2{
+	font-size: 0.4rem;
+	margin: 0.25rem 0 0 0;
+}
+.gh3{
+	font-size: 0.5rem;
+	font-weight: bold;
+	margin: 0.5rem 0 0.5rem 0;
+}
+.gh4{
+	font-size: 0.4rem;
+	margin: 0.25rem 0 0 0;
+}
+.gh5{
+	font-size: 0.5rem;
+	font-weight: bold;
+	margin: 0.5rem 0 0.375rem 0rem;
+}
+.gh6{
+	font-size: 0.4rem;
+}
+.hj1{
+	font-size: 0.5rem;
+	font-weight: bold;
+	margin: 0 0 0.5rem 0;
+}
+.hj2{
+	font-size:0.4rem;
+	margin: 0.25rem 0 0 0;
+}
+.nh{
+	width: 43.75rem;
+	height: 1.25rem;
+	border-top: 0.1em solid silver;
+	border-bottom: 0.1em solid silver;
+	margin: 0 1.25rem 0 1.25rem;
+}
+.pl1{
+	display: inline-block;
+	margin: 0.25rem 0 0 17.5rem;
+	font-size: 0.4rem;
+	font-weight: bold;
+}
+.pl1.ol{
+	margin: 0.25rem 0 0 1.5rem;
+}
+.vg{
+	display: grid;
+	grid-template-columns: 10.0rem 35.0rem;
+	margin: 0.5rem 0 0 0.5rem;
+}
+.ip2{
+	margin: 0.4rem 0 0 2.0rem;
+	font-size: 0.4rem;
+	color: gray;
+}
+
+
+
+
+
+
+
+
